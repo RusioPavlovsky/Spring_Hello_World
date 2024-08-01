@@ -4,7 +4,8 @@ import org.springframework.context.annotation.Scope;
 
 @Configuration
 public class AppConfig {
- 
+
+    //fixme между методами расстояние 1 строка
     @Bean(name="helloworld")
     public HelloWorld getHelloWorld() {
         HelloWorld helloWorld = new HelloWorld();
